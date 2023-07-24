@@ -2483,9 +2483,37 @@ book banner css startshere======================
 
 #banner {
   margin-top: 180px;
-  background-image: url(../images/banner-shape-bg.gif);
+  background-image: url(../images/banner/banner-shape-bg-WITH-SML-SHP.gif);
   height: 85vh;
+  position: relative;
+  background-size: cover;
 }
-#banner .content {
-  height: 85vh;
+#banner .content h1 {
+  font-size: 75px;
+  font-weight: bold;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+}
+#banner .down {
+  margin-top: 30px;
+}
+#banner .down i {
+  font-size: 60px;
+  color: #c2cfff;
+  display: inline-block;
+  vertical-align: middle;
+}
+#banner .down .button {
+  padding: 10px 25px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #c2cfff;
+}
+#banner .down .button a {
+  color: #333333;
+  text-decoration: underline;
 }
