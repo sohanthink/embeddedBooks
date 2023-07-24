@@ -2482,7 +2482,7 @@ book banner css startshere======================
 =========================================== */
 
 #banner {
-  margin-top: 180px;
+  margin-top: 140px;
   background-image: url(../images/banner/banner-shape-bg-WITH-SML-SHP.gif);
   height: 85vh;
   position: relative;
@@ -2493,7 +2493,7 @@ book banner css startshere======================
   font-weight: bold;
   color: #333333;
   font-family: "Poppins", sans-serif;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 #banner .down {
   margin-top: 30px;
