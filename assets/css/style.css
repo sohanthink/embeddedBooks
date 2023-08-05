@@ -2473,9 +2473,9 @@ form section ends here======================
   margin: 0 auto;
 }
 
-/* =========================================
-book page css startshere======================
-=========================================== */
+/* ==================================================================================================
+book page css startshere=============================================================================
+==================================================================================================== */
 
 /* =========================================
 book banner css startshere======================
@@ -2514,6 +2514,86 @@ book banner css startshere======================
   background-color: #c2cfff;
 }
 #banner .down .button a {
-  color: #333333;
+  color: #6e73f9;
   text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+
+/* =========================================
+book 1(RTOS) css startshere=================
+=========================================== */
+
+#book {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.sectionBg {
+  background-color: #eaf4ff;
+}
+#book .button button {
+  background: #506bff;
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 5px;
+}
+#book .button a {
+  color: white;
+  text-decoration: none;
+}
+#book .button i {
+  color: white;
+  padding-right: 7px;
+}
+#book .content h1 {
+  text-transform: uppercase;
+  color: #506bff;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+#book .content p {
+  padding: 20px 0;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 200;
+}
+#book .bookImg img {
+  width: 90%;
+}
+#book .left-items {
+  display: flex;
+  align-items: center;
+}
+.shape {
+  position: relative;
+}
+.shape .left {
+  position: absolute;
+  top: -55px;
+  left: 0;
+}
+.shape .right {
+  position: absolute;
+  bottom: -55px;
+  right: 0;
+  z-index: 999;
+}
+.shape .shape1 {
+  position: absolute;
+  bottom: 120px;
+  left: 580px;
+}
+/* Book 2 shape css */
+
+.shape .circle {
+  position: absolute;
+  top: 120px;
+  left: 770px;
+}
+.shape .shapecorner {
+  position: absolute;
+  bottom: 120px;
+  right: 300px;
 }
