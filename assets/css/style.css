@@ -2597,3 +2597,14 @@ book 1(RTOS) css startshere=================
   bottom: 120px;
   right: 300px;
 }
+.shape .corner {
+  position: absolute;
+  bottom: 50px;
+  left: 800px;
+}
+.shape .dot {
+  position: absolute;
+  bottom: -100px;
+  right: 0px;
+  z-index: 999;
+}
