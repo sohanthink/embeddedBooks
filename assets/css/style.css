@@ -2608,3 +2608,9 @@ book 1(RTOS) css startshere=================
   right: 0px;
   z-index: 999;
 }
+.bookImg img {
+  transition: all linear 0.4s;
+}
+.bookImg img:hover {
+  scale: 1.01;
+}
